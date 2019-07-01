@@ -1,0 +1,166 @@
+﻿@charset "utf-8";
+/*
+Theme Name: linuxzfp学习html5+css3   
+Theme URI: http://www.plbbs.cn
+Description: 专为学习练习的主题
+Author:linuxzfp
+Author URI: http://www.plbbs.cn
+Version: 1.0 
+Tags: white, cms, cms
+*/
+ul li {
+	list-style-type: none;
+	margin:0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}
+#zfp_all{
+	/*background-color: #87CEEB;*/
+	background: url(./css/newbg.gif);
+}
+#pl_top_nav{
+	height: 35px;
+	overflow: hidden;
+	margin:5px auto;
+	background-color: #8FBC8F;
+}
+#pl_top_nav span{
+	float: left;
+	padding: 5px;
+}
+#pl_logo img{
+	width: 110px;
+	height: 110px;
+}
+#pl_topmenu{
+	height: 55px;
+	background-color: #8FBC8F;
+	overflow: hidden;
+}
+#navmenu{
+}
+.navmenu{
+	width: 90%;
+	margin:auto;
+	padding: 0px;
+	display: block;
+}
+.navmenu ul{
+	display: inline-block;
+}
+.navmenu li{
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding-left: 20px;
+}
+.navmenu li a{
+	font:normal 600 20px/55px '宋体','sans-serif' ;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	height: 100%;
+	width: 100px;
+}
+.navmenu li a:hover{
+	color: black;
+	background: #00CED1;
+}
+#pl_center{
+	width: 65%;
+	float:left;
+	overflow: hidden;
+}
+#contenter{
+	border: 1px solid gray;
+	float:left;
+	overflow: hidden;
+	padding:5px;
+	padding:15px;
+}
+.box{
+	margin: 5px auto;
+	width: 49%;
+	padding:2px;
+	border: 1px solid gray;
+	float: left;
+}
+.box_header{
+	position: relative;
+	height: 30px;
+	background-color: #ADD8E6;
+	text-align: left;
+	padding: 5px;
+}
+.box_header span{
+	position: absolute;
+    background: #04a4cc;
+    color: #fff;
+    top: -1px;
+    right: -1px;
+    line-height: 22px;
+    padding: 0 5px;
+    border: 1px solid #04a4cc;
+    border-radius: 0 2px 0 0;
+}
+.box_pic{
+	margin: 10px 5px;
+	border: 1px solid red;
+	float: left;
+	width: 26%;
+	height: 80px;
+	overflow: hidden;
+}
+.box_pic img{
+	width: 90px;
+	height: 70px;
+}
+.box_list{
+	width: 65%;
+	padding:2px;
+	float: left;
+	overflow: hidden;
+}
+.box_bottom{
+	clear: both;
+	overflow: hidden;
+	height: 30px;
+	position: relative;
+}
+.box_bottom span{
+	position: absolute;
+	background:#04a4cc;
+	color:#fff;
+	right:20px;
+	bottom:1px;
+	line-height: 22px;
+	padding:0px 5px;
+    border: 1px solid #04a4cc;
+    border-radius: 0 2px 0 0;
+}
+.box_bottom p{
+	position: absolute;
+	left: 5px;
+	bottom: 1px;
+	line-height: 22px;
+	margin:0px;
+}
+#pl_right{
+	border: 1px solid gray;
+	float:right;
+	overflow: hidden;
+	width: 33%;
+}
+#sidebar{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+}
+#footer{
+	clear:both;
+	height:50px;
+	overflow: hidden;
+	border: 1px solid green;
+}
